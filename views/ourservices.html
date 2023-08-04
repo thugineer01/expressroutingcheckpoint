@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Our Services</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        background-color: #f2f2f2;
+      }
+
+      nav {
+        background-color: #333;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+      }
+
+      nav a {
+        color: #f4f4f4;
+        text-decoration: none;
+        padding: 8px 16px;
+      }
+
+      nav a:hover {
+        background-color: #555;
+        border-radius: 20px;
+      }
+
+      .container {
+        padding-top: 60px;
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      .container h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 35px;
+        margin-bottom: 25px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+
+      .services {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        justify-items: center;
+      }
+
+      .card {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: 0.3s;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .card .icon {
+        font-size: 40px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .card .title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .card p {
+        color: #777;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/our-services">Our Services</a>
+      <a href="/contact-us">Contact Us</a>
+    </nav>
+    <div class="container">
+      <h2>Our Services</h2>
+      <section class="services">
+        <div class="card">
+          <div class="icon"><i class="fas fa-code"></i></div>
+          <div class="title">Web Development</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+            reprehenderit.
+          </p>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="fas fa-mobile"></i></div>
+          <div class="title">App Development</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+            reprehenderit.
+          </p>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="fas fa-paint-brush"></i></div>
+          <div class="title">Web Design</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+            reprehenderit.
+          </p>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="fas fa-laptop"></i></div>
+          <div class="title">Responsive Design</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+            reprehenderit.
+          </p>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="fas fa-line-chart"></i></div>
+          <div class="title">Advertising</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+            reprehenderit.
+          </p>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="fas fa-wordpress"></i></div>
+          <div class="title">Wordpress</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+            reprehenderit.
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
